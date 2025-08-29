@@ -6,7 +6,7 @@
 
 int main()
 {
-    char* locale = setlocale(LC_CTYPE, ""); //
+    char* locale = setlocale(LC_CTYPE, ""); 
     MessageBox(0, L"Hello from main()", L"A test program", MB_OK);
     return 0;
 }
